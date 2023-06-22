@@ -30,7 +30,7 @@ This allowed me to change the icon with the title in the tab of the HTML similar
 <pre>
 <link rel="icon" 
       type="image/jpg" 
-      href="./images/stars.jpg"/>
+      href="./images/stars.jpg"/>;
 </pre> 
       
 ### Font Color Changed to Image Background
