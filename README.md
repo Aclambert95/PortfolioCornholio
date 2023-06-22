@@ -27,23 +27,27 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ### Icon Creation
 This allowed me to change the icon with the title in the tab of the HTML similar to how YouTube has the red play button:
-- <link rel="icon" 
+<pre> 
+<link rel="icon" 
       type="image/jpg" 
       href="./images/stars.jpg"/>
+</pre>
 
       
 ### Font Color Changed to Image Background
 This allowed me to create my own type of font color using an image as the background of the text:
-<pre>-webkit-background-clip: text;
-    background-clip: image;
-    -webkit-text-fill-color: transparent; 
-    background-image: url(https://e0.pxfuel.com/wallpapers/456/219/desktop-wallpaper-the-universe-supernova-explosion-star-nebula-thumbnail.jpg);
+<pre>
+-webkit-background-clip: text;
+background-clip: image;
+-webkit-text-fill-color: transparent; 
+background-image: url(https://e0.pxfuel.com/wallpapers/456/219/desktop-wallpaper-the-universe-supernova-explosion-star-nebula-thumbnail.jpg);
 </pre>
 
 ### Layers
 This allowed me to move shift the layers of the containers so that I could stack my articles on top of my image:
-<pre> z-index: 2;
-      z-index: 1;
+<pre> 
+z-index: 2;
+z-index: 1;
 </pre>
 Note that the lower the number, the further back it will be. For instance, if the number is 1, it will sit behind a different image or      container with the z-index value of 2 or greater!
 
