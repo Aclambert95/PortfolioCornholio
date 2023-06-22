@@ -1,0 +1,109 @@
+:root {
+    --purple-text: rgb(225, 106, 230);
+    --border-style: dashed;
+    --font-family: Helvetica;
+    --white-text: white;
+    --green: rgb(0, 128, 64);
+    --supernova-color: 
+  }
+
+  header {
+    display: flex;
+    font-family: var(--font-family);
+    font-size: 2.5vw;
+    background-color: white;
+    justify-content: center;
+  }
+
+  h1 {
+    display: flex;
+    font-size: 5vw;
+    margin: 3vw;
+    -webkit-background-clip: text;
+    background-clip: image;
+    -webkit-text-fill-color: transparent; 
+    background-image: url(https://e0.pxfuel.com/wallpapers/456/219/desktop-wallpaper-the-universe-supernova-explosion-star-nebula-thumbnail.jpg);
+  }
+
+  span {
+    color: rgba(50, 12, 139, 0.753);
+    -webkit-background-clip: text;
+    background-clip: image;
+    -webkit-text-fill-color: transparent; 
+    background-image: url(https://e0.pxfuel.com/wallpapers/456/219/desktop-wallpaper-the-universe-supernova-explosion-star-nebula-thumbnail.jpg);
+  }
+
+  nav {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    background-image: linear-gradient(rgba(51, 51, 51, 0.678) 100%, rgba(255, 255, 255, 0.3) 0%);
+    border-style: double;
+  }
+
+  nav a {
+    color: white;
+    padding: 1vw 3vw 1vw 3vw;
+    font-size: 2.75vw;
+    font-family: var(--font-family);
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  img {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+    opacity: 0.5;
+  }
+
+  .centerpiece {
+    display: flex;
+  }
+
+  .centerpiece img {
+    display: flex;
+  }
+
+  .centerpiece p {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    color: white;
+    background-color: black;
+    font-family: var(--font-family);
+    z-index: 2;
+  }
+
+
+/*
+  .animation_background_test{
+    -webkit-animation-name: animation;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;    
+    -webkit-animation-play-state: running;
+    
+    animation-name: animation;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;    
+    animation-play-state: running;
+    background-color: #00ff15;
+}
+
+@-webkit-keyframes animation {
+    0%     {background-color: #00ff15;}
+    50.0%  {background-color:#c4fcc8;}
+    100.0%  {background-color:#00ff15;}
+}
+
+@keyframes animation {
+    0%     {background-color: #00ff15;}
+    50.0%  {background-color:#c4fcc8;}
+    100.0%  {background-color:#00ff15;}
+}
