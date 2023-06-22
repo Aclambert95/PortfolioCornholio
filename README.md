@@ -27,10 +27,11 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ### Icon Creation
 This allowed me to change the icon with the title in the tab of the HTML similar to how YouTube has the red play button:
-- <link rel="icon" 
+<pre>
+<link rel="icon" 
       type="image/jpg" 
       href="./images/stars.jpg"/>
-
+</pre> 
       
 ### Font Color Changed to Image Background
 This allowed me to create my own type of font color using an image as the background of the text:
