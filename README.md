@@ -34,6 +34,7 @@ This allowed me to change the icon with the title in the tab of the HTML similar
       type="image/jpg" 
       href="./images/stars.jpg";
 </pre> 
+- Please Note: Be sure to have the symbols < and > at the beginning and the end similar to the way you link stylesheets.
       
 ### Font Color Changed to Image Background
 This allowed me to create my own type of font color using an image as the background of the text:
@@ -50,7 +51,7 @@ This allowed me to move shift the layers of the containers so that I could stack
 z-index: 2;
 z-index: 1;
 </pre>
-Note that the lower the number, the further back it will be. For instance, if the number is 1, it will sit behind a different image or      container with the z-index value of 2 or greater!
+- Please Note: The lower the number, the further back it will be. For instance, if the number is 1, it will sit behind a different image or      container with the z-index value of 2 or greater!
 
 
      
