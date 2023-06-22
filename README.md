@@ -25,6 +25,8 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## New CSS and HTML Tricks I learned along the way creating this website:
 
+# WHAT I LEARNED IN CODING SCHOOL WAAAAAAAAAAAS
+
 ### Icon Creation
 This allowed me to change the icon with the title in the tab of the HTML similar to how YouTube has the red play button:
 <pre>
