@@ -4,55 +4,71 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>❮❮  Aaron's Portfoliolio  ❯❯</title>
-    <link rel="icon" 
-      type="image/jpg" 
-      href="./images/stars.jpg"/>
+    <title>❮❮ Aaron's Portfolio ❯❯</title>
+    <link rel="icon" type="image/jpg" href="./images/icon.jpg" />
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 
 <!-- Header -->
 <header>
-    <h1>Portfolio<span>Cornholio</span></h1>
+    <img src="./images/Icon.jpg"></img>
+    <h1><span>Aaron_</span> Lambert</h1>
 </header>
 <!-- Navbar -->
 <nav>
-    <a href="#">About Myself</a>
-    <a href="#">Work</a>
-    <a href="#">Contact Me</a>
-    <a href="#">Resume</a>
+    <a href="#about_me">About Myself</a>
+    <a href="#work">Work</a>
+    <a href="#contact_me">Contact Me</a>
+    <a href="#resume">Resume</a>
 </nav>
 
-<body class="articles">
-    <section>
-        <img src="./images/supernova.jpg"></img>
-    </section>
+<main>
 
-    <article class="About Myself">
-        <h3>About Myself</h3>
-        <p>Hello! My name is Aaron Lambert. I am 28 years old and I currently live in Pflugerville, TX
-            with my girlfriend and our dog. We are due to have our first child in December, and we cannot
-            wait to meet him. I currently work in construction, but would like to make a career shift to 
-            have a career that allows me to have more time for my future family.
-        </p>
-        <button>Nice to Meet You!</button>
-    </article>
+    <body class="articles">
+        <section>
+            
+        </section>
 
-    <article class="Work">
-        <h3>Work</h3>
-        <p></p>
-    </article>
+        <article id="about_me" class="card1">
+            <h3>Allow Me to Introduce Myself</h3>
+            <p>Hello! My name is Aaron Lambert. I am 28 years old and I currently live in Pflugerville, TX
+                with my girlfriend and our dog. We are due to have our first child in December, and we cannot
+                wait to meet him. I currently work in construction, but would like to make a career shift to
+                have a career that allows me to have more time for my future family.
+            </p>
+            <button>Nice to Meet You!</button>
+            <img src="./images/background.jpg"></img>
+        </article>
 
-    <article class="Contact Me">
-        <h3>Contact Me</h3>
-        <p></p>
-    </article>
+        <article id="work" class="card2">
+            <h3>Work</h3>
+            <p>The link below will take you to a page that will eventually display an array of my work. But for now, it is merely a little play thing! 😂</p>
+            <button>This will link to some substantial information...soon</button>
+            <img src="./images/background.jpg"></img>
+        </article>
 
-    <article class="Resume">
-        <h3>Resume</h3>
-        <p></p>
-    </article>
+        <article id="contact_me"" class="card1">
+            <h3>Contact Me</h3>
+            <p><b>All of my main information is below. I am happy to provide my cell # on request as well!</b></p>
+            <ul>
+                <li>See this link for my <a href=https://github.com/Aclambert95>GitHub</a> page!</li>
+                <li>If you want to shoot me an email, send it here: <a
+                        href="aclambert95@outlook.com">aclambert95@outlook.com</a>!</li>
+                <li>If you want to checkout my <a
+                        href="https://www.linkedin.com/in/aaron-lambert-a5b04894/">LinkedIn</a> page, check that link
+                    out!</li>
+            </ul>
+            <button>Functionality: TBD</button>
+            <img src="./images/background.jpg"></img>
+        </article>
 
-</body>
+        <article id="resume" class="card2">
+            <h3>Resume</h3>
+            <p>My resume, at this time, is only geared toward construction, but I hope to change that over the course of the next two years!</p>
+            <button>Eventually this will link to my Full Stack Resume</button>
+            <img src="./images/background.jpg"></img>
+        </article>
 
+    </body>
+</main>

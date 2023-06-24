@@ -45,6 +45,8 @@ background-clip: image;
 background-image: url(https://e0.pxfuel.com/wallpapers/456/219/desktop-wallpaper-the-universe-supernova-explosion-star-nebula-thumbnail.jpg);
 </pre>
 
+I did remove it, however, because I still need to mess with the sizing on it. I will keep here for reference.
+
 ### Layers
 This allowed me to move shift the layers of the containers so that I could stack my articles on top of my image:
 <pre> 
