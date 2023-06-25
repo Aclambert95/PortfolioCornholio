@@ -64,6 +64,13 @@ a:link {
 </pre>
 
 ### Showing code in your ReadMe File
-I probably should have started with this, but if you want to show items in your ReadMe as lines of code just use the function "<pre>" followed by your code and closed off with "</pre>".
+I probably should have started with this, but if you want to show items in your ReadMe as lines of code just use "pre" with < and > on eiter side:
+<pre>
+      <pre>
+      *your code here*
+      </pre>
+<pre>
+This make copy pasting from old files much easier that having to try and find the code in your HTML or CSS file.
+
 
 
