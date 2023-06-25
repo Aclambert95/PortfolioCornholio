@@ -45,7 +45,7 @@ nav {
   justify-content: center;
   align-items: center;
   width: 100%;
-  background-image: linear-gradient(rgba(195, 0, 255, 0.6) 50%, rgba(195, 0, 255, 1.0) 80%);
+  background-image: linear-gradient(rgba(195, 0, 255, 0.6) 00%, rgba(0, 153, 255, 1.0) 100%);
   border-style: groove;
   border-width: 3px;
   border-color: rgba(0, 153, 255, 1.0);
