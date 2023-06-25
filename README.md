@@ -55,5 +55,15 @@ z-index: 1;
 </pre>
 - Please Note: The lower the number, the further back it will be. For instance, if the number is 1, it will sit behind a different image or      container with the z-index value of 2 or greater!
 
+### Changing Link Text Color
+This should have been simple, but its all about learning the different capabilities of CSS. This is the code that will allow you to change the color of the font in your link:
+<pre>
+a:link {
+  color: rgb(255, 174, 0);
+}
+</pre>
 
-     
+### Showing code in your ReadMe File
+I probably should have started with this, but if you want to show items in your ReadMe as lines of code just use the function "<pre>" followed by your code and closed off with "</pre>".
+
+
