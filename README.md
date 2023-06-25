@@ -69,7 +69,7 @@ I probably should have started with this, but if you want to show items in your 
       <pre>
       *your code here*
       </pre>
-<pre>
+</pre>
 This make copy pasting from old files much easier that having to try and find the code in your HTML or CSS file.
 
 
