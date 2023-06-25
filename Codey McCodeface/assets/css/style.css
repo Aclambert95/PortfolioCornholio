@@ -19,7 +19,7 @@ header img {
 
 header {
   display: flex;
-  font-family: monospace;
+  font-family: var(--font-family);
   flex-direction: row;
   justify-content: center;
   color: var(--electric-blue);
@@ -30,13 +30,13 @@ h1 {
   flex-direction: row;
   font-size: 48px;
   margin: 3vw;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(86, 0, 88);
   border-radius: 10%;
   border-style: groove;
 }
 
 span {
-  color: #ff00f2;
+  color: #ffffff;
 }
 
 nav {
@@ -45,7 +45,7 @@ nav {
   justify-content: center;
   align-items: center;
   width: 100%;
-  background-image: linear-gradient(rgba(195, 0, 255, 0.6) 00%, rgba(0, 153, 255, 1.0) 100%);
+  background-image: linear-gradient(rgba(255, 0, 0, 0.6) 00%, rgba(0, 153, 255, 1.0) 100%);
   border-style: groove;
   border-width: 3px;
   border-color: rgba(0, 153, 255, 1.0);
@@ -84,7 +84,7 @@ img {
   width: 100%;
   height: 100%;
   z-index: 1;
-  opacity: 15%;
+  opacity: 75%;
 }
 
 article {
@@ -132,7 +132,7 @@ article img {
 }
 
 a:link {
-  color: rgb(255, 174, 0);
+  color: rgb(255, 255, 255);
 }
 .articles {
   border-style: solid;
